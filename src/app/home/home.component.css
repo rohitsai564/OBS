@@ -1,0 +1,39 @@
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../../assets/000.png");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+.h1{
+  
+}
+
+
+  .left, .right {
+    height: 100vh;
+    
+  }
+
+  @media screen and (min-width:768px)
+  {
+    .left, .right{
+        height: 100vh;
+    }
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right{
+    width: 100%;
+  }
